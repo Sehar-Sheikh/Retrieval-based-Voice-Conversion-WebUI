@@ -1,0 +1,28 @@
+assets/
+logs/
+TEMP/
+__pycache__/
+# RVC training checkpoints
+logs/
+*.pth
+*.ckpt
+*.pt
+
+# Large downloaded models
+assets/hubert_base/pytorch_model.bin
+assets/rmvp/rmvpe.pt
+
+# Large executables
+ffprobe.exe
+
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Hugging Face caches
+.cache/
+.model-downloads/.cache/
+
+# Temporary files
+TEMP/
